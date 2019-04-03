@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="container">
+            <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light d-flex flex-row-reverse ">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid rounded" src="./images/self.png" width="100" height="100" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                  <ul class="navbar-nav m-auto  d-flex flex-row-reverse">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">مقالات</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">فیلم ها <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle dir" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                دسته بندی ها  
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">دسته اول</a>
+                                <a class="dropdown-item" href="#"> دسته دوم</a>
+                                <a class="dropdown-item" href="#"> دسته سوم</a>
+                            </div>
+                        </li>
+                    
+                  </ul>
+                  
+                </div>
+              </nav>
+            </header>
+
+            <article>
+                    <div class="jumbotron text-right">
+                        <h1 class="display-4 text-right">آموزش طراحی ‌وب‌سایت</h1>
+                        <p class="lead text-right">دراین جلسه از  آموزش طراحی وب‌سایت (جلسه یازدهم ) ، به توضیح تگ‌های iframe و script خواهیم پرداخت ، جلسات گذشته با  تگ‌های HTML آشنا شدید و همچنین در جلسه دهم در مورد ویژگی id به صورت کامل همراه با یک فایل ویدئویی صحبت کردیم.</p>
+                        <hr class="my-4">
+                        <p class="text-right">زمانی که بخواهیم در صفحه‌ی وب خودمان یک صفحه‌ی وب دیگر داشته باشیم از تگ iframe استفاده می‌کنیم. برای این کار باید آدرس صفحه‌ی وبی را که می‌خواهیم به نمایش بگذاریم را برابر Src قرار دهیم</p>
+                        <a class="btn btn-primary btn-lg text-right" href="#" role="button"> ادامه ی مطلب</a>
+                    </div>
+            </article>
+
+            <article>
+
+                <div class="card-columns">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title that wraps to a new line</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+            </article>
+            <article>
+
+                    <div class="card-columns">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title that wraps to a new line</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                            <div class="card p-3">
+                              <blockquote class="blockquote mb-0 card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer class="blockquote-footer">
+                                  <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card bg-primary text-white text-center p-3">
+                              <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                <footer class="blockquote-footer text-white">
+                                  <small>
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card text-center">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="/images/products/android.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card p-3 text-right">
+                              <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer class="blockquote-footer">
+                                  <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                          </div>
+            </article>
+        </section>        
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
