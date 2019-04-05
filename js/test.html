@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div style="margin:auto; width:50%;">
+            <div style="margin:auto;background:red;">
+                <input type="number" name="number" class="value" value="" style="width:100%;height:30px;">
+            </div>            
+        </div>
+        <script>
+            let value = document.querySelector('input');
+            value.addEventListener('keyup',function(e){
+                e.preventDefault();
+                if(e.keyCode ==13){
+                    let status =1;
+                    let result = (value.value.toString());
+                   for(;result.length;){
+                        if(result.match('144')){
+                            result =result.replace('144','')
+                        }
+                        else if( result.match('14') ){
+                            result = result.replace('14','')
+                        }
+                        else if(result.match('1')){
+
+                            result = result.replace('1','')
+                        }
+                        else{
+                            status =0;
+                            break;
+                        }
+                   }
+                   console.log('status out' +status)
+                   if(status == 0){
+                       alert('no')
+                   }else{
+                       alert('yes')
+                   }
+                }
+            })
+        </script>
+    </body>
+</html>
