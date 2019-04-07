@@ -1,4 +1,9 @@
-@media (min-width: 20px) {
+.dir{
+  direction: rtl;
+}
+
+
+@media (max-width: 576px) {
 
     .container {
       max-width: 540px;
@@ -6,6 +11,68 @@
     .res-font{
         font-size:4vw !important;
     }
+    .order-sm-10 {
+      -ms-flex-order: 10;
+      order: 10 !important;
+    }
+    .order-sm-2 {
+      -ms-flex-order: 2;
+      order: 10 !important;
+    }
+    
+    .col-sm-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+      order:1;  
+    }
+    .col-sm-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+      order:2;
+    }
+
+    .col-sm-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+    }
+        
+    .col-sm-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    
+    .col-sm-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+    .order-sm-1 {
+      -ms-flex-order: 1 !important;
+      order: 1 !important;
+    }
+    .order-sm-2 {
+      -ms-flex-order: 2 !important;
+      order: 2 !important;
+    }
+    .order-sm-3 {
+      -ms-flex-order: 3 !important;
+      order: 3 !important;
+    }
+    .order-sm-4 {
+      -ms-flex-order: 4;
+      order: 4 !important;
+    }
+    .order-sm-5 {
+      -ms-flex-order: 5 !important;
+      order: 5 !important;
+    }
+    
+
+    
   }
 @media (min-width: 576px) {
 
