@@ -1,7 +1,19 @@
 .dir{
   direction: rtl;
 }
+.d-none{
+  display: none !important;
+}
+.line-left-vertical,
+.line-left-vertical:hover{
+  text-decoration: none !important;
 
+}
+.line-left-vertical span:hover{
+    display:inline-block;
+    border-bottom:1px solid black;
+    padding-bottom:2px;
+}
 
 @media (max-width: 576px) {
 
@@ -70,8 +82,10 @@
       -ms-flex-order: 5 !important;
       order: 5 !important;
     }
-    
 
+    .d-block{
+      display: flex !important;
+    }
     
   }
 @media (min-width: 576px) {
@@ -90,6 +104,12 @@
     }
     .res-font{
         font-size:2vw !important;
+    }
+    .d-md-block{
+      display: flex !important;
+    }
+    .d-md-none{
+      display: none !important;
     }
   }
   
